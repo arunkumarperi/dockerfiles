@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const DEFAULT_PORT = 5003;
+const DEFAULT_PORT = 5000;
 const PORT = process.env.PORT || DEFAULT_PORT;
 const HOST = process.env.HOST || '0.0.0.0';
 
